@@ -8,9 +8,9 @@ import { config } from '@grafana/runtime';
 import { Button, HorizontalGroup, Icon, useStyles2, useTheme2 } from '@grafana/ui';
 import { ElementState } from 'features/canvas/runtime/element';
 
-import { AddLayerButton } from '../../../../core/components/Layers/AddLayerButton';
-import { CanvasElementOptions, canvasElementRegistry } from '../../../../features/canvas';
-import { notFoundItem } from '../../../../features/canvas/elements/notFound';
+import { AddLayerButton } from 'core/components/Layers/AddLayerButton';
+import { CanvasElementOptions, canvasElementRegistry } from 'features/canvas';
+import { notFoundItem } from 'features/canvas/elements/notFound';
 import { getGlobalStyles } from '../globalStyles';
 import { PanelOptions } from '../models.gen';
 import { getTreeData, onNodeDrop, TreeElement } from '../tree';

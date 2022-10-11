@@ -8,7 +8,7 @@ import {
   ALL_FOLDER,
   GENERAL_FOLDER,
   ReadonlyFolderPicker,
-} from '../../../core/components/Select/ReadonlyFolderPicker/ReadonlyFolderPicker';
+} from 'core/components/Select/ReadonlyFolderPicker/ReadonlyFolderPicker';
 
 import { DashList } from './DashList';
 import { defaultPanelOptions, PanelLayout, PanelOptions } from './models.gen';

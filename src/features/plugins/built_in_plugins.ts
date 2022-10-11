@@ -73,7 +73,8 @@ const alertmanagerPlugin = async () =>
 const geomapPanel = async () => await import(/* webpackChunkName: "geomapPanel" */ 'plugins/panel/geomap/module');
 const canvasPanel = async () => await import(/* webpackChunkName: "canvasPanel" */ 'plugins/panel/canvas/module');
 const iconPanel = async () => await import(/* webpackChunkName: "iconPanel" */ 'plugins/panel/icon/module');
-const graphPanel = async () => await import(/* webpackChunkName: "graphPlugin" */ 'plugins/panel/graph/module');
+// angular not supported
+// const graphPanel = async () => await import(/* webpackChunkName: "graphPlugin" */ 'plugins/panel/graph/module');
 const heatmapPanel = async () =>
   await import(/* webpackChunkName: "heatmapPanel" */ 'plugins/panel/heatmap/module');
 const heatmapPanelOLD = async () =>
@@ -120,7 +121,7 @@ const builtInPlugins: any = {
   'plugins/panel/state-timeline/module': stateTimelinePanel,
   'plugins/panel/status-history/module': statusHistoryPanel,
   'plugins/panel/candlestick/module': candlestickPanel,
-  'plugins/panel/graph/module': graphPanel,
+  // 'plugins/panel/graph/module': graphPanel,
   'plugins/panel/xychart/module': xyChartPanel,
   'plugins/panel/geomap/module': geomapPanel,
   'plugins/panel/canvas/module': canvasPanel,

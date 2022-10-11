@@ -1,10 +1,10 @@
 import { AppEvents } from '@grafana/data/src';
 
-import appEvents from '../../../core/app_events';
-import { CanvasElementItem, canvasElementRegistry, defaultElementItems } from '../../../features/canvas';
-import { ElementState } from '../../../features/canvas/runtime/element';
-import { FrameState } from '../../../features/canvas/runtime/frame';
-import { Scene, SelectionParams } from '../../../features/canvas/runtime/scene';
+import appEvents from 'core/app_events';
+import { CanvasElementItem, canvasElementRegistry, defaultElementItems } from 'features/canvas';
+import { ElementState } from 'features/canvas/runtime/element';
+import { FrameState } from 'features/canvas/runtime/frame';
+import { Scene, SelectionParams } from 'features/canvas/runtime/scene';
 
 export function doSelect(scene: Scene, element: ElementState | FrameState) {
   try {

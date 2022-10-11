@@ -15,9 +15,9 @@ import { FilterItem, TableSortByFieldState } from '@grafana/ui/src/components/Ta
 import { config } from 'core/config';
 import { getDatasourceSrv } from 'features/plugins/datasource_srv';
 
-import { getDashboardSrv } from '../../../features/dashboard/services/DashboardSrv';
-import { applyFilterFromTable } from '../../../features/variables/adhoc/actions';
-import { dispatch } from '../../../store/store';
+import { getDashboardSrv } from 'features/dashboard/services/DashboardSrv';
+import { applyFilterFromTable } from 'features/variables/adhoc/actions';
+import { dispatch } from 'store/store';
 
 import { getFooterCells } from './footer';
 import { PanelOptions } from './models.gen';

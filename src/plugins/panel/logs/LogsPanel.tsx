@@ -17,8 +17,8 @@ import { dataFrameToLogsModel, dedupLogRows, COMMON_LABELS } from 'core/logsMode
 import { getFieldLinksForExplore } from 'features/explore/utils/links';
 import { PanelDataErrorView } from 'features/panel/components/PanelDataErrorView';
 
-import { LogLabels } from '../../../features/logs/components/LogLabels';
-import { LogRows } from '../../../features/logs/components/LogRows';
+import { LogLabels } from 'features/logs/components/LogLabels';
+import { LogRows } from 'features/logs/components/LogRows';
 
 import { Options } from './types';
 

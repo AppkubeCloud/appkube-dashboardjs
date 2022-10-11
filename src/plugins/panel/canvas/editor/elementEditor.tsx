@@ -11,7 +11,7 @@ import { ElementState } from 'features/canvas/runtime/element';
 import { Scene } from 'features/canvas/runtime/scene';
 import { setOptionImmutably } from 'features/dashboard/components/PanelEditor/utils';
 
-import { FrameState } from '../../../../features/canvas/runtime/frame';
+import { FrameState } from 'features/canvas/runtime/frame';
 import { getElementTypes } from '../utils';
 
 import { PlacementEditor } from './PlacementEditor';

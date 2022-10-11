@@ -1,4 +1,4 @@
-import { ElementState } from '../../../features/canvas/runtime/element';
+import { ElementState } from 'features/canvas/runtime/element';
 
 export enum LayerActionID {
   Delete = 'delete',

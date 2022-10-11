@@ -5,7 +5,7 @@ import { GrafanaTheme2 } from '@grafana/data';
 import { IconButton, useStyles2 } from '@grafana/ui';
 import { ElementState } from 'features/canvas/runtime/element';
 
-import { LayerName } from '../../../../core/components/Layers/LayerName';
+import { LayerName } from 'core/components/Layers/LayerName';
 import { TreeElement } from '../tree';
 import { LayerActionID } from '../types';
 
