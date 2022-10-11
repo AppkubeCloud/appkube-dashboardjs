@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "declaration": false,
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "jsx": "react",
+  },
+  "include": ["src", "types"],
+  "extends": "@grafana/tsconfig"
+}
