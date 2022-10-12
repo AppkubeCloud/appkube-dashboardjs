@@ -1,7 +1,8 @@
+import { DashboardPage } from 'features/dashboard/containers/DashboardPage';
 function App() {
   return (
     <div className="App">
-      This is it.
+      <DashboardPage />
     </div>
   );
 }
