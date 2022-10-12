@@ -3,7 +3,7 @@ import { clone, filter, find, findIndex, indexOf, map } from 'lodash';
 
 import { PanelEvents, QueryResultMeta } from '@grafana/data';
 import { TemplateSrv } from '@grafana/runtime';
-import { SqlPart } from 'angular/components/sql_part/sql_part';
+// import { SqlPart } from 'angular/components/sql_part/sql_part';
 import appEvents from 'core/app_events';
 import { VariableWithMultiSupport } from 'features/variables/types';
 import { QueryCtrl } from 'plugins/sdk';
@@ -36,9 +36,9 @@ export class PostgresQueryCtrl extends QueryCtrl {
   timeColumnSegment: any;
   metricColumnSegment: any;
   selectMenu: any[] = [];
-  selectParts: SqlPart[][] = [[]];
-  groupParts: SqlPart[] = [];
-  whereParts: SqlPart[] = [];
+  selectParts: any[][] = [[]];
+  groupParts: any[] = [];
+  whereParts: any[] = [];
   groupAdd: any;
 
   /** @ngInject */

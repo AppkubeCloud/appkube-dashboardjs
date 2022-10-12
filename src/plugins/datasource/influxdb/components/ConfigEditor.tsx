@@ -1,6 +1,7 @@
 import { uniqueId } from 'lodash';
 import React, { PureComponent } from 'react';
-
+import { BROWSER_MODE_DISABLED_MESSAGE } from '../constants';
+import { InfluxOptions, InfluxSecureJsonData, InfluxVersion } from '../types';
 import {
   DataSourcePluginOptionsEditorProps,
   SelectableValue,
@@ -14,8 +15,6 @@ import {
 import { Alert, DataSourceHttpSettings, InfoBox, InlineField, InlineFormLabel, LegacyForms, Select } from '@grafana/ui';
 
 const { Input, SecretFormField } = LegacyForms;
-import { BROWSER_MODE_DISABLED_MESSAGE } from '../constants';
-import { InfluxOptions, InfluxSecureJsonData, InfluxVersion } from '../types';
 
 const httpModes: SelectableValue[] = [
   { label: 'GET', value: 'GET' },

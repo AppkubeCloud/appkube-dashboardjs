@@ -6,8 +6,8 @@ import { GrafanaTheme2 } from '@grafana/data';
 import { config } from '@grafana/runtime';
 import { Alert, InlineField, InlineFieldRow, useStyles2 } from '@grafana/ui';
 
-import { AdHocFilter } from '../../../../features/variables/adhoc/picker/AdHocFilter';
-import { AdHocVariableFilter } from '../../../../features/variables/types';
+import { AdHocFilter } from 'features/variables/adhoc/picker/AdHocFilter';
+import { AdHocVariableFilter } from 'features/variables/types';
 import { PrometheusDatasource } from '../../prometheus/datasource';
 import { TempoQuery } from '../types';
 
